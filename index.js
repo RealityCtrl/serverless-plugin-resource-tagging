@@ -20,7 +20,8 @@ class ServerlessPlugin {
       "AWS::ApiGateway::Stage",
       "AWS::CloudFront::Distribution",
       "AWS::Logs::LogGroup",
-      "AWS::CloudWatch::Alarm"
+      "AWS::CloudWatch::Alarm",
+      "AWS::Events::Rule"
     ];
 
     if (!this.provider) {
